@@ -1,0 +1,11 @@
+name: GUILibrary
+version: '${project.version}'
+main: org.luci.guilibrary.GUILibrary
+api-version: '1.21'
+commands:
+  testpagination:
+    description: Opens a paginated GUI.
+    usage: /<command>
+  testdynamicgui:
+    description: Opens a dynamic GUI.
+    usage: /<command>
