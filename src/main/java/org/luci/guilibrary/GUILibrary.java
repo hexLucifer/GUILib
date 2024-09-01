@@ -17,8 +17,7 @@ public final class GUILibrary extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PaginatedGUIListener(), this);
 
         // Commands
-        this.getCommand("testpagination").setExecutor(new OpenPaginatedGUICommand());
-        this.getCommand("testdynamicgui").setExecutor(new TestDynamicGUI());
+
 
     }
 
